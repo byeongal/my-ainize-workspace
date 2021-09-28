@@ -1,4 +1,4 @@
-FROM <BASE_IMAGE>
+FROM byeongal/ubuntu20.04-cuda11.2.2-python3.8.10
 
 USER root
 ## Basic Env
