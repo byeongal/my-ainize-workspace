@@ -16,7 +16,7 @@ fi
 chmod -R 555 /workspace
 
 # Do not change the port number 8000.
-jupyter lab  --NotebookApp.token=$PASSWORD --ip=0.0.0.0 --port=8000 --allow-root &
+jupyter lab --NotebookApp.token=$PASSWORD --ip=0.0.0.0 --port=8000 --allow-root &
 
 if [ -z "$PASSWORD" ]
 then
